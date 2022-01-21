@@ -95,7 +95,7 @@ export const categories = [
   },
   {
     name: 'Burger',
-    sub_message: 'Çaylar İkramımızdır',
+    sub_message: 'Çaylar ve Salatalar İkramımızdır',
     sub_category: null,
     image: 'https://s10.gifyu.com/images/burger.jpg',
     bg: 'dark',
@@ -139,7 +139,7 @@ export const categories = [
   },
   {
     name: 'Pizza',
-    sub_message: 'Çaylar İkramımızdır',
+    sub_message: 'Çaylar ve Salatalar İkramımızdır',
     sub_category: null,
     image: 'https://s10.gifyu.com/images/pizzad64e56d86117e585.jpg',
     bg: 'light',
@@ -197,144 +197,130 @@ export const categories = [
   },
   {
     name: 'Mangal',
-    sub_message: 'Çaylar İkramımızdır',
+    sub_message: 'Çaylar ve Salatalar İkramımızdır',
     sub_category: null,
     image: 'https://s10.gifyu.com/images/kebap-min.jpg',
     bg: 'dark',
     items: [
       {
+        name: 'Kasap Köfte',
+        price: 50,
+        sub_category: null,
+        description: '180gr kasap kıyma eti ',
+      },
+      {
         name: 'Terbiyesiz Tavuk(Acısız)',
         price: 50,
         sub_category: null,
-        description:
-          '200gr dinlendirilmiş tavuk budu, bulgur pilavi, soğan salatası, ezme, salata, közlenmiş biber domates, çıtır ekmek ',
+        description: '200gr dinlendirilmiş tavuk budu',
       },
       {
         name: 'Terbiyeli Tavuk(Acılı)',
         price: 50,
         sub_category: null,
-        description:
-          '200gr terbiyelenmiş acı soslu tavuk budu ,bulgur pilavi, soğan salatası, ezme, salata, közlenmiş biber domates, çıtır ekmek ',
+        description: '200gr terbiyelenmiş acı soslu tavuk budu ',
       },
       {
         name: 'Tavuk Kanat',
         price: 55,
         sub_category: null,
-        description:
-          'Tavuk kanat ,bulgur pilavi, soğan salatası, ezme, salata, közlenmiş biber domates, çıtır ekmek ',
+        description: 'Tavuk kanat ',
       },
       {
         name: 'Adana Kebap(Acılı)',
         price: 60,
         sub_category: null,
-        description:
-          '180gr zırhlı kuzu kavurma kıyması içinde sarımsak, yeşil ve kırmızı kapya biber, acılı pul biber ,bulgur pilavi, soğan salatası, ezme, salata, közlenmiş biber domates, çıtır ekmek ',
+        description: '180gr zırhlı kuzu kaburga kıyması ',
       },
       {
         name: 'Beyoglu Kebap(Acısız)',
         price: 60,
         sub_category: null,
-        description:
-          '180gram zırhlı kuzu kaburga kıyması içinde sarımsak,yeşil ve kırmızı kapya biber ,bulgur pilavi, soğan salatası, ezme, salata, közlenmiş biber domates, çıtır ekmek ',
+        description: '180gram zırhlı kuzu kaburga kıyması ',
       },
       {
         name: 'Urfa Kebap (Acısız)',
         price: 60,
         sub_category: null,
-        description:
-          '180gr kuzu kaburga kıyması ,bulgur pilavi, soğan salatası, ezme, salata, közlenmiş biber domates, çıtır ekmek ',
-      },
-      {
-        name: 'Patlıcanlı Kebap',
-        price: 70,
-        sub_category: null,
-        description:
-          'Bulgur pilavi, soğan salatası, ezme, salata, közlenmiş biber domates, çıtır ekmek',
+        description: '180gr kuzu kaburga kıyması',
       },
       {
         name: 'Siverek Kebabı',
         price: 65,
         sub_category: null,
         description:
-          'Yarım porsiyon Beyoğlu kebap, yarım porsiyon patlıcanlı kebap,bulgur pilavi, soğan salatası, ezme, salata, közlenmiş biber domates, çıtır ekmek ',
+          'Yarım porsiyon Beyoğlu kebap, yarım porsiyon patlıcanlı kebap',
       },
       {
         name: 'Ciğer',
         price: 65,
         sub_category: null,
-        description:
-          '160gr kuzu ciğer ,bulgur pilavi, soğan salatası, ezme, salata, közlenmiş biber domates, çıtır ekmek',
+        description: '160gr kuzu ciğer ',
+      },
+      {
+        name: 'Patlıcanlı Kebap',
+        price: 70,
+        sub_category: null,
+        description: null,
       },
       {
         name: 'Terbiyesiz Kuşbaşı (Acısız)',
         price: 70,
         sub_category: null,
-        description:
-          '200gr dinlendirilmiş dana bonfile ,bulgur pilavi, soğan salatası, ezme, salata, közlenmiş biber domates, çıtır ekmek',
+        description: '200gr dinlendirilmiş dana bonfile',
       },
       {
         name: 'Terbiyeli Kuşbaşı(Acılı)',
         price: 70,
         sub_category: null,
-        description:
-          '200gr terbiyelenmiş soslu dana bonfile ,bulgur pilavi, soğan salatası, ezme, salata, közlenmiş biber domates, çıtır ekmek ',
+        description: '200gr terbiyelenmiş soslu dana bonfile ',
       },
       {
         name: 'Ali Nazik',
         price: 80,
         sub_category: null,
         description:
-          'Közlenmiş patlıcan üzerine, terbiyelenmiş 200gr dana bonfile ile tereyağlı sos ,bulgur pilavi, soğan salatası, ezme, salata, közlenmiş biber domates, çıtır ekmek',
+          'Közlenmiş patlıcan üzerine, terbiyelenmiş 200gr dana bonfile ile tereyağlı sos ',
       },
     ],
   },
   {
     name: 'Kırmızı Et',
-    sub_message: 'Çaylar İkramımızdır',
+    sub_message: 'Çaylar ve Salatalar İkramımızdır',
     sub_category: null,
     image: 'https://s10.gifyu.com/images/bodrum.jpg',
     bg: 'light',
     items: [
       {
-        name: 'Kasap Köfte',
-        price: 50,
-        sub_category: null,
-        description:
-          '180gr kasap kıyma eti yanında bulgur, soğan salatası, ezme, salata, közlenmiş biber domates, çıtır ekmek ',
-      },
-      {
         name: 'Bodrum Çökertme',
         price: 80,
         sub_category: null,
         description:
-          'Kibrit patates üstüne yoğurt, 200gr dana dana bonfile üzerine tereyağlı sos, yanına patates kızartması,salata ',
+          'Kibrit patates üstüne yoğurt, 200gr dana dana bonfile üzerine tereyağlı sos, ',
       },
       {
         name: 'Mantarlı Bonfile',
         price: 80,
         sub_category: null,
-        description:
-          '200gr mantar soslu dana bonfile yanına patates kızartması,salata ',
+        description: '200gr mantar soslu dana bonfile ',
       },
       {
         name: 'Fajita',
         price: 80,
         sub_category: null,
-        description:
-          'Jülyan 200gr dana bonfile içine biber, soğan, mantar fajita sosu yanına patates kızartması,salata ',
+        description: 'Jülyan 200gr dana bonfile ',
       },
       {
         name: 'Beyoğlu Gurme Special',
         price: 80,
         sub_category: null,
-        description:
-          '200gr doğranmış dana bonfile, içine biber, mantar, domates,mısır, yanına patates kızartması,salata ',
+        description: '200gr doğranmış dana bonfile,',
       },
     ],
   },
   {
     name: 'Salatalar',
-    sub_message: 'Çaylar İkramımızdır',
+    sub_message: 'Çaylar ve Salatalar İkramımızdır',
     sub_category: null,
     image: 'https://s10.gifyu.com/images/salad.jpg',
     bg: 'dark',
@@ -378,7 +364,7 @@ export const categories = [
   },
   {
     name: 'Beyaz Et',
-    sub_message: 'Çaylar İkramımızdır',
+    sub_message: 'Çaylar ve Salatalar İkramımızdır',
     sub_category: null,
     image: 'https://s10.gifyu.com/images/tavuk.jpg',
     bg: 'light',
@@ -387,29 +373,26 @@ export const categories = [
         name: 'Fesleğen Soslu Tavuk',
         price: 50,
         sub_category: null,
-        description:
-          '200gr fesleğen soslu tavuk yanında salata, patates kızartması ',
+        description: '200gr fesleğen soslu tavuk ',
       },
       {
         name: 'Köri Soslu Tavuk',
         price: 50,
         sub_category: null,
-        description:
-          '200gr köri soslu tavuk yanında salata, patates kızartması',
+        description: '200gr köri soslu tavuk ',
       },
       {
         name: 'Taze Baharatlı Tavuk',
         price: 50,
         sub_category: null,
         description:
-          '200gr tavuk içine kırmızı biber, kekik, toz biber, karabiber yanında salata, patates kızartması',
+          '200gr tavuk içine kırmızı biber, kekik, toz biber, karabiber',
       },
       {
         name: 'Kremalı Mantarlı Tavuk',
         price: 50,
         sub_category: null,
-        description:
-          '200gr tavuk içine mantar ve krema yanında salata, patates kızartması',
+        description: '200gr tavuk içine mantar ve krema ',
       },
     ],
   },
