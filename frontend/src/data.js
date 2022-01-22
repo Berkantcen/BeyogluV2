@@ -679,4 +679,4 @@ export const categories = [
       },
     ],
   },
-]
+];

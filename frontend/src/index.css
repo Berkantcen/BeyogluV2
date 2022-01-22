@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   width: 100vw;
@@ -29,10 +33,10 @@ header {
   padding: 0 20px;
   top: 0;
   left: 0;
-  background-color: #333;
+  background-color: #555;
   width: 100%;
   color: #f1f1f1;
-  height: 60px;
+  height: 40px;
 }
 
 .container {
@@ -80,7 +84,7 @@ header {
 .category-item {
   display: flex;
   flex-direction: column;
-
+  margin: 10px 0;
   width: 100%;
   padding: 40px 30px;
 }
@@ -163,6 +167,34 @@ header {
 
 .breakfast-info > p {
   margin: 10px 0;
+}
+
+header p {
+  margin-left: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.navigation-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 20px 40px;
+  position: fixed;
+  top: 40px;
+  left: 0;
+}
+.navigation-item a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.navigation-item {
+  margin: 10px 0;
+  cursor: pointer;
 }
 
 /* MEDIA QUERRY  */

@@ -1,7 +1,23 @@
-import React from 'react'
+import React from 'react';
+import Navigation from './Navigation';
+import { useState } from 'react';
 
 const Header = () => {
-  return <header>Menu</header>
-}
+  const [isOpen, setIsOpen] = useState(false);
 
-export default Header
+  return (
+    <header>
+      <p
+        onClick={() => {
+          setIsOpen(!isOpen);
+        }}
+      >
+        Menu
+      </p>
+
+      {isOpen && <Navigation setIsOpen={setIsOpen} />}
+    </header>
+  );
+};
+
+export default Header;
