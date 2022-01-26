@@ -204,80 +204,80 @@ export const categories = [
     items: [
       {
         name: 'Kasap Köfte',
-        price: 50,
+        price: 55,
         sub_category: null,
         description: '180gr kasap kıyma eti ',
       },
       {
         name: 'Terbiyesiz Tavuk(Acısız)',
-        price: 50,
+        price: 55,
         sub_category: null,
         description: '200gr dinlendirilmiş tavuk budu',
       },
       {
         name: 'Terbiyeli Tavuk(Acılı)',
-        price: 50,
+        price: 55,
         sub_category: null,
         description: '200gr terbiyelenmiş acı soslu tavuk budu ',
       },
       {
         name: 'Tavuk Kanat',
-        price: 55,
+        price: 65,
         sub_category: null,
         description: 'Tavuk kanat ',
       },
       {
         name: 'Adana Kebap(Acılı)',
-        price: 60,
+        price: 65,
         sub_category: null,
         description: '180gr zırhlı kuzu kaburga kıyması ',
       },
       {
         name: 'Beyoglu Kebap(Acısız)',
-        price: 60,
+        price: 65,
         sub_category: null,
         description: '180gram zırhlı kuzu kaburga kıyması ',
       },
       {
         name: 'Urfa Kebap (Acısız)',
-        price: 60,
+        price: 65,
         sub_category: null,
         description: '180gr kuzu kaburga kıyması',
       },
       {
         name: 'Siverek Kebabı',
-        price: 65,
+        price: 70,
         sub_category: null,
         description:
           'Yarım porsiyon Beyoğlu kebap, yarım porsiyon patlıcanlı kebap',
       },
       {
         name: 'Ciğer',
-        price: 65,
+        price: 70,
         sub_category: null,
         description: '160gr kuzu ciğer ',
       },
       {
         name: 'Patlıcanlı Kebap',
-        price: 70,
+        price: 75,
         sub_category: null,
         description: null,
       },
       {
         name: 'Terbiyesiz Kuşbaşı (Acısız)',
-        price: 70,
+        price: 75,
         sub_category: null,
         description: '200gr dinlendirilmiş dana bonfile',
       },
       {
         name: 'Terbiyeli Kuşbaşı(Acılı)',
-        price: 70,
+        price: 75,
         sub_category: null,
         description: '200gr terbiyelenmiş soslu dana bonfile ',
       },
       {
         name: 'Ali Nazik',
-        price: 80,
+        price: 85,
         sub_category: null,
         description:
           'Közlenmiş patlıcan üzerine, terbiyelenmiş 200gr dana bonfile ile tereyağlı sos ',
@@ -293,26 +293,26 @@ export const categories = [
     items: [
       {
         name: 'Bodrum Çökertme',
-        price: 80,
+        price: 85,
         sub_category: null,
         description:
           'Kibrit patates üstüne yoğurt, 200gr dana dana bonfile üzerine tereyağlı sos, ',
       },
       {
         name: 'Mantarlı Bonfile',
-        price: 80,
+        price: 85,
         sub_category: null,
         description: '200gr mantar soslu dana bonfile ',
       },
       {
         name: 'Fajita',
-        price: 80,
+        price: 85,
         sub_category: null,
         description: 'Jülyan 200gr dana bonfile ',
       },
       {
         name: 'Beyoğlu Gurme Special',
-        price: 80,
+        price: 85,
         sub_category: null,
         description: '200gr doğranmış dana bonfile,',
       },
@@ -371,26 +371,26 @@ export const categories = [
     items: [
       {
         name: 'Fesleğen Soslu Tavuk',
-        price: 50,
+        price: 55,
         sub_category: null,
         description: '200gr fesleğen soslu tavuk ',
       },
       {
         name: 'Köri Soslu Tavuk',
-        price: 50,
+        price: 55,
         sub_category: null,
         description: '200gr köri soslu tavuk ',
       },
       {
         name: 'Taze Baharatlı Tavuk',
-        price: 50,
+        price: 55,
         sub_category: null,
         description:
           '200gr tavuk içine kırmızı biber, kekik, toz biber, karabiber',
       },
       {
         name: 'Kremalı Mantarlı Tavuk',
-        price: 50,
+        price: 55,
         sub_category: null,
         description: '200gr tavuk içine mantar ve krema ',
       },
