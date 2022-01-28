@@ -11,9 +11,10 @@ const Breakfast = () => {
       <div className='breakfast-info'>
         <h4>
           4 çeşit yöresel peynir, 2 çeşit zeytin, bal, kaymak, tereyağı, krem
-          çikolata, isot ezmesi, çemen, murtuğa, 2 çeşit ev reçeli, böğürtlenli
-          lor, domates, salatalık, yeşillik, biber, patlıcan ve patates
-          kızartması, pişi, sucuklu yumurta, menemen ve sınırsız çay.
+          çikolata, isot ezmesi, çemen, beyoğlu ezme murtuğa, 2 çeşit ev reçeli,
+          böğürtlenli lor, domates, salatalık, yeşillik, biber, patlıcan ve
+          patates kızartması, pişi, sucuklu yumurta, menemen, sigara böreği ve
+          sınırsız çay.
         </h4>
         <h2>Kişi Başı - 65 TL</h2>
         <h3>Çocuk - 30 TL</h3>

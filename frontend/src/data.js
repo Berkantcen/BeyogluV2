@@ -532,6 +532,12 @@ export const categories = [
         sub_category: 'Türk Kahveleri',
         description: null,
       },
+      {
+        name: 'Double Dibek Kahvesi',
+        price: 20,
+        sub_category: 'Türk Kahveleri',
+        description: null,
+      },
     ],
   },
   {
@@ -679,4 +685,4 @@ export const categories = [
       },
     ],
   },
-];
+]
