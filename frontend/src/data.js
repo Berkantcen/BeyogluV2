@@ -430,17 +430,24 @@ export const categories = [
     name: 'Tatlı ve Kampanyalar',
     sub_message: null,
     sub_category: ['Tatlı', 'Kampanyalar'],
-    image: null,
+    image:
+      'https://s10.gifyu.com/images/fbe25bb1-130a-408f-a385-4d3765356972.jpg',
     bg: 'light',
     items: [
       {
-        name: 'Burma Kadayıf',
+        name: 'Kadayıf',
         price: 25,
         sub_category: 'Tatlı',
         description: null,
       },
       {
         name: 'Beyoğlu Fıstıkzade',
+        price: 35,
+        sub_category: 'Tatlı',
+        description: null,
+      },
+      {
+        name: 'Soğuk Baklava',
         price: 35,
         sub_category: 'Tatlı',
         description: null,
@@ -476,13 +483,19 @@ export const categories = [
         description: null,
       },
       {
-        name: 'Burma Kadayıf + Kahve',
+        name: 'Kadayıf + Kahve',
         price: 30,
         sub_category: 'Kampanyalar',
         description: null,
       },
       {
         name: 'Fıstıkzade + Kahve',
+        price: 40,
+        sub_category: 'Kampanyalar',
+        description: null,
+      },
+      {
+        name: 'Soğuk Baklava + Kahve',
         price: 40,
         sub_category: 'Kampanyalar',
         description: null,
