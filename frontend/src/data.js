@@ -15,7 +15,7 @@ export const categories = [
       },
       {
         name: 'Pişi',
-        price: 15,
+        price: 20,
         sub_category: 'Aperatifler',
         description: null,
       },
@@ -39,13 +39,13 @@ export const categories = [
       },
       {
         name: 'Patetes Tava',
-        price: 25,
+        price: 30,
         sub_category: 'Aperatifler',
         description: null,
       },
       {
         name: 'Soğan Halkası 8 Adet',
-        price: 25,
+        price: 30,
         sub_category: 'Aperatifler',
         description: null,
       },
@@ -102,38 +102,38 @@ export const categories = [
     items: [
       {
         name: 'Chicken Burger',
-        price: 39,
-        sub_category: null,
-        description:
-          'Özel soslar ile marine edilmiş 160gr ızgara tavuk, domates,burger turşusu,el yapımı burger ekmeği,yanında patates kızartması, 2 adet soğan halkası ',
-      },
-      {
-        name: 'Klasik Burger',
         price: 44,
         sub_category: null,
         description:
-          '160gr kasap kıyma eti ,domates,burger turşusu,el yapımı burger ekmeği,yanında patates kızartması, 2 adet soğan halkası ',
+          'Özel soslar ile marine edilmiş 160gr ızgara tavuk,karamelize soğan, domates,burger turşusu,el yapımı burger ekmeği,yanında patates kızartması, 2 adet soğan halkası ',
+      },
+      {
+        name: 'Klasik Burger',
+        price: 49,
+        sub_category: null,
+        description:
+          '160gr kasap kıyma eti, karamelize soğan, domates, burger turşusu,karamelize soğan,el yapımı burger ekmeği,yanında patates kızartması, 2 adet soğan halkası ',
       },
       {
         name: 'Cheese Burger',
-        price: 48,
+        price: 53,
         sub_category: null,
         description:
-          '160gr kasap kıyma eti, cheddar peyniri, domates, burger turşusu, el yapımı burger ekmeği, yanında patates kızartması, 2 adet soğan halkası ',
+          '160gr kasap kıyma eti, cheddar peyniri,karamelize soğan, domates, burger turşusu, el yapımı burger ekmeği, yanında patates kızartması, 2 adet soğan halkası ',
       },
       {
         name: 'BBQ Burger',
-        price: 48,
+        price: 53,
         sub_category: null,
         description:
-          '160gr kasap kıyma eti, cheddar peyniri, domates, burger turşusu, bbq sos, el yapımı burger ekmeği, yanında patates kızartması, 2 adet soğan halkası ',
+          '160gr kasap kıyma eti, cheddar peyniri,karamelize soğan, domates, burger turşusu, bbq sos, el yapımı burger ekmeği, yanında patates kızartması, 2 adet soğan halkası ',
       },
       {
         name: 'Anadolu Burger',
-        price: 48,
+        price: 53,
         sub_category: null,
         description:
-          '160gr kasap kıyma eti, pastırma, cheddar peyniri, domates, burger turşusu, el yapımı burger ekmeği, yanında patates kızartması, 2 adet soğan halkası ',
+          '160gr kasap kıyma eti, pastırma, cheddar peyniri,karamelize soğan, domates, burger turşusu, el yapımı burger ekmeği, yanında patates kızartması, 2 adet soğan halkası ',
       },
     ],
   },
@@ -146,49 +146,49 @@ export const categories = [
     items: [
       {
         name: 'İtalyan Pizza',
-        price: 50,
+        price: 55,
         sub_category: null,
         description:
           'Domates sos, mozzarella, sucuk, zeytin, kekik, mantar, biber, yanında patates kızartması ',
       },
       {
         name: 'Karışık Pizza',
-        price: 50,
+        price: 55,
         sub_category: null,
         description:
           'Domates sos, mozzarella, sucuk, salam, kırmızı biber, yeşil biber, mantar, zeytin, mısır, domates, yanında patates kızartması ',
       },
       {
         name: 'Sucuklu Pizza',
-        price: 50,
+        price: 55,
         sub_category: null,
         description:
           'Domates sos, mozzarella, kasap sucuk, sivri biber,yanında patates kızartması ',
       },
       {
         name: 'Ton Balıklı Pizza',
-        price: 50,
+        price: 55,
         sub_category: null,
         description:
           'Domates sos, mozzarella, ton balığı,biber mantar, mısır  yanında patates kızartması ',
       },
       {
         name: 'Margarita Pizza',
-        price: 50,
+        price: 55,
         sub_category: null,
         description:
           'Domates sos, mozzarella, fesleğen sos, yanında patates kızartması ',
       },
       {
         name: 'Dört Peynirli Pizza',
-        price: 50,
+        price: 55,
         sub_category: null,
         description:
           'Domates sos, mozzarella, beyaz peynir, parmesan, kaşar peyniri, yanında patates kızartması ',
       },
       {
         name: 'Kavurmalı Pizza',
-        price: 55,
+        price: 60,
         sub_category: null,
         description:
           'Domates sos, mozzarella, kavurma yanında patates kızartması ',
@@ -204,80 +204,80 @@ export const categories = [
     items: [
       {
         name: 'Kasap Köfte',
-        price: 55,
+        price: 60,
         sub_category: null,
         description: '180gr kasap kıyma eti ',
       },
       {
         name: 'Terbiyesiz Tavuk(Acısız)',
-        price: 55,
+        price: 60,
         sub_category: null,
         description: '200gr dinlendirilmiş tavuk budu',
       },
       {
         name: 'Terbiyeli Tavuk(Acılı)',
-        price: 55,
+        price: 60,
         sub_category: null,
         description: '200gr terbiyelenmiş acı soslu tavuk budu ',
       },
       {
         name: 'Tavuk Kanat',
-        price: 65,
+        price: 70,
         sub_category: null,
         description: 'Tavuk kanat ',
       },
       {
         name: 'Adana Kebap(Acılı)',
-        price: 65,
+        price: 70,
         sub_category: null,
         description: '180gr zırhlı kuzu kaburga kıyması ',
       },
       {
         name: 'Beyoglu Kebap(Acısız)',
-        price: 65,
+        price: 70,
         sub_category: null,
         description: '180gram zırhlı kuzu kaburga kıyması ',
       },
       {
         name: 'Urfa Kebap (Acısız)',
-        price: 65,
+        price: 70,
         sub_category: null,
         description: '180gr kuzu kaburga kıyması',
       },
       {
         name: 'Siverek Kebabı',
-        price: 70,
+        price: 75,
         sub_category: null,
         description:
           'Yarım porsiyon Beyoğlu kebap, yarım porsiyon patlıcanlı kebap',
       },
       {
         name: 'Ciğer',
-        price: 70,
+        price: 75,
         sub_category: null,
         description: '160gr kuzu ciğer ',
       },
       {
         name: 'Patlıcanlı Kebap',
-        price: 75,
+        price: 80,
         sub_category: null,
         description: null,
       },
       {
         name: 'Terbiyesiz Kuşbaşı (Acısız)',
-        price: 75,
+        price: 80,
         sub_category: null,
         description: '200gr dinlendirilmiş dana bonfile',
       },
       {
         name: 'Terbiyeli Kuşbaşı(Acılı)',
-        price: 75,
+        price: 80,
         sub_category: null,
         description: '200gr terbiyelenmiş soslu dana bonfile ',
       },
       {
         name: 'Ali Nazik',
-        price: 85,
+        price: 90,
         sub_category: null,
         description:
           'Közlenmiş patlıcan üzerine, terbiyelenmiş 200gr dana bonfile ile tereyağlı sos ',
@@ -293,26 +293,26 @@ export const categories = [
     items: [
       {
         name: 'Bodrum Çökertme',
-        price: 85,
+        price: 90,
         sub_category: null,
         description:
           'Kibrit patates üstüne yoğurt, 200gr dana dana bonfile üzerine tereyağlı sos, ',
       },
       {
         name: 'Mantarlı Bonfile',
-        price: 85,
+        price: 90,
         sub_category: null,
         description: '200gr mantar soslu dana bonfile ',
       },
       {
         name: 'Fajita',
-        price: 85,
+        price: 90,
         sub_category: null,
         description: 'Jülyan 200gr dana bonfile ',
       },
       {
         name: 'Beyoğlu Gurme Special',
-        price: 85,
+        price: 90,
         sub_category: null,
         description: '200gr doğranmış dana bonfile,',
       },
@@ -371,78 +371,90 @@ export const categories = [
     items: [
       {
         name: 'Fesleğen Soslu Tavuk',
-        price: 55,
+        price: 60,
         sub_category: null,
         description: '200gr fesleğen soslu tavuk ',
       },
       {
         name: 'Köri Soslu Tavuk',
-        price: 55,
+        price: 60,
         sub_category: null,
         description: '200gr köri soslu tavuk ',
       },
       {
         name: 'Taze Baharatlı Tavuk',
-        price: 55,
+        price: 60,
         sub_category: null,
         description:
           '200gr tavuk içine kırmızı biber, kekik, toz biber, karabiber',
       },
       {
         name: 'Kremalı Mantarlı Tavuk',
-        price: 55,
+        price: 60,
         sub_category: null,
         description: '200gr tavuk içine mantar ve krema ',
       },
     ],
   },
-  {
-    name: 'Waffle',
-    sub_message: null,
-    sub_category: null,
-    image: 'https://s10.gifyu.com/images/waffle.jpg',
-    bg: 'dark',
-    items: [
-      {
-        name: 'Classic Waffle',
-        price: 43,
-        sub_category: null,
-        description:
-          'Sütlü alt çikolata, muz, çilek, kivi, parça antep fıstığı,yer fıstığı, sütlü üst sos',
-      },
-      {
-        name: 'Çikolata Aşkı',
-        price: 43,
-        sub_category: null,
-        description:
-          'Bitter dip çikolata, muz, çilek, kivi, toz fındık, ceviz, kestane, bitter damla drop, bitter üst sos',
-      },
-      {
-        name: 'Tropik Waffle',
-        price: 43,
-        sub_category: null,
-        description:
-          'Sütlü alt çikolata, muz, kivi, ananas, parça fındık, çakıl taşı, frambuaz ve muzlu üst sos, bitter üst sos',
-      },
-    ],
-  },
+  // {
+  //   name: 'Waffle',
+  //   sub_message: null,
+  //   sub_category: null,
+  //   image: 'https://s10.gifyu.com/images/waffle.jpg',
+  //   bg: 'dark',
+  //   items: [
+  //     {
+  //       name: 'Classic Waffle',
+  //       price: 43,
+  //       sub_category: null,
+  //       description:
+  //         'Sütlü alt çikolata, muz, çilek, kivi, parça antep fıstığı,yer fıstığı, sütlü üst sos',
+  //     },
+  //     {
+  //       name: 'Çikolata Aşkı',
+  //       price: 43,
+  //       sub_category: null,
+  //       description:
+  //         'Bitter dip çikolata, muz, çilek, kivi, toz fındık, ceviz, kestane, bitter damla drop, bitter üst sos',
+  //     },
+  //     {
+  //       name: 'Tropik Waffle',
+  //       price: 43,
+  //       sub_category: null,
+  //       description:
+  //         'Sütlü alt çikolata, muz, kivi, ananas, parça fındık, çakıl taşı, frambuaz ve muzlu üst sos, bitter üst sos',
+  //     },
+  //   ],
+  // },
   {
     name: 'Tatlı ve Kampanyalar',
     sub_message: null,
     sub_category: ['Tatlı', 'Kampanyalar'],
     image:
       'https://s10.gifyu.com/images/fbe25bb1-130a-408f-a385-4d3765356972.jpg',
-    bg: 'light',
+    bg: 'dark',
     items: [
       {
+        name: 'Kesme Dondurma',
+        price: 15,
+        sub_category: 'Tatlı',
+        description: null,
+      },
+      {
+        name: 'Dondurmalı Islak Kek',
+        price: 30,
+        sub_category: 'Tatlı',
+        description: null,
+      },
+      {
         name: 'Kadayıf',
-        price: 25,
+        price: 30,
         sub_category: 'Tatlı',
         description: null,
       },
       {
         name: 'Beyoğlu Fıstıkzade',
-        price: 35,
+        price: 40,
         sub_category: 'Tatlı',
         description: null,
       },
@@ -454,43 +466,43 @@ export const categories = [
       },
       {
         name: 'Sütlaç',
-        price: 20,
+        price: 25,
         sub_category: 'Tatlı',
         description: null,
       },
       {
         name: 'Tahinli Fındıklı Sütlaç',
-        price: 25,
+        price: 30,
         sub_category: 'Tatlı',
         description: null,
       },
       {
         name: 'Kıbrıs Tatlısı',
-        price: 25,
+        price: 30,
         sub_category: 'Tatlı',
         description: null,
       },
       {
         name: 'Sütlaç + Kahve',
-        price: 25,
+        price: 30,
         sub_category: 'Kampanyalar',
         description: null,
       },
       {
         name: 'Tahinli Sütlaç + Kahve',
-        price: 30,
+        price: 35,
         sub_category: 'Kampanyalar',
         description: null,
       },
       {
         name: 'Kadayıf + Kahve',
-        price: 30,
+        price: 35,
         sub_category: 'Kampanyalar',
         description: null,
       },
       {
         name: 'Fıstıkzade + Kahve',
-        price: 40,
+        price: 45,
         sub_category: 'Kampanyalar',
         description: null,
       },
@@ -502,7 +514,13 @@ export const categories = [
       },
       {
         name: 'Kıbrıs Tatlısı + Kahve',
-        price: 25,
+        price: 35,
+        sub_category: 'Kampanyalar',
+        description: null,
+      },
+      {
+        name: 'Dondurmalı Islak Kek + Kahve',
+        price: 35,
         sub_category: 'Kampanyalar',
         description: null,
       },
@@ -513,41 +531,41 @@ export const categories = [
     sub_message: null,
     sub_category: ['Demleme Filtre Kahve', 'Türk Kahveleri'],
     image: 'https://s10.gifyu.com/images/kahve.jpg',
-    bg: 'dark',
+    bg: 'light',
     items: [
       {
         name: 'Filtre Kahve',
-        price: 15,
-        sub_category: 'Demleme Filtre Kahve',
-        description: null,
-      },
-      {
-        name: 'Sütlü Filtre Kahve',
         price: 17.5,
         sub_category: 'Demleme Filtre Kahve',
         description: null,
       },
       {
+        name: 'Sütlü Filtre Kahve',
+        price: 20,
+        sub_category: 'Demleme Filtre Kahve',
+        description: null,
+      },
+      {
         name: 'Türk Kahvesi',
-        price: 14,
+        price: 15,
         sub_category: 'Türk Kahveleri',
         description: null,
       },
       {
         name: 'Double Türk Kahvesi',
-        price: 20,
+        price: 25,
         sub_category: 'Türk Kahveleri',
         description: null,
       },
       {
         name: 'Double Menengiç Kahvesi',
-        price: 20,
+        price: 25,
         sub_category: 'Türk Kahveleri',
         description: null,
       },
       {
         name: 'Double Dibek Kahvesi',
-        price: 20,
+        price: 25,
         sub_category: 'Türk Kahveleri',
         description: null,
       },
@@ -558,59 +576,59 @@ export const categories = [
     sub_message: null,
     sub_category: ['Sıcak İçecekler', 'Bitki Çayları'],
     image: 'https://s10.gifyu.com/images/vay.jpg',
-    bg: 'light',
+    bg: 'dark',
     items: [
       {
         name: 'Çay',
-        price: 6,
+        price: 7,
         sub_category: 'Sıcak İçecekler',
         description: null,
       },
       {
         name: 'Fincan Çay',
-        price: 9,
-        sub_category: 'Sıcak İçecekler',
-        description: null,
-      },
-      {
-        name: 'Salep',
-        price: 17.5,
-        sub_category: 'Sıcak İçecekler',
-        description: null,
-      },
-      {
-        name: 'Sıcak Çikolata',
-        price: 17.5,
-        sub_category: 'Sıcak İçecekler',
-        description: null,
-      },
-      {
-        name: 'Sıcak Süt',
         price: 10,
         sub_category: 'Sıcak İçecekler',
         description: null,
       },
       {
-        name: 'Nane Limon',
+        name: 'Salep',
+        price: 20,
+        sub_category: 'Sıcak İçecekler',
+        description: null,
+      },
+      {
+        name: 'Sıcak Çikolata',
+        price: 20,
+        sub_category: 'Sıcak İçecekler',
+        description: null,
+      },
+      {
+        name: 'Sıcak Süt',
         price: 15,
+        sub_category: 'Sıcak İçecekler',
+        description: null,
+      },
+      {
+        name: 'Nane Limon',
+        price: 17.5,
         sub_category: 'Bitki Çayları',
         description: null,
       },
       {
         name: 'Ihlamur',
-        price: 15,
+        price: 17.5,
         sub_category: 'Bitki Çayları',
         description: null,
       },
       {
         name: 'Ada Çayı',
-        price: 15,
+        price: 17.5,
         sub_category: 'Bitki Çayları',
         description: null,
       },
       {
         name: 'Kış Çayı',
-        price: 15,
+        price: 17.5,
         sub_category: 'Bitki Çayları',
         description: null,
       },
@@ -621,7 +639,7 @@ export const categories = [
     sub_message: null,
     sub_category: null,
     image: 'https://s10.gifyu.com/images/kola.jpg',
-    bg: 'dark',
+    bg: 'light',
     items: [
       {
         name: 'Su',
