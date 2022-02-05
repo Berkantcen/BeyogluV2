@@ -8,7 +8,7 @@ export const categories = [
     items: [
       {
         name: 'Tek kişilik Kahvaltı',
-        price: 60,
+        price: 65,
         sub_category: null,
         description:
           '4 Çeşit yöresel peynir, 2 çeşit zeytin, bal, kaymak, tereyağı, krem çikolata, isot ezmesi, çemen, murtuğa, reçel, domates, salatalık, yeşillik, patates kızartması, pişi, sahanda yumurta ve sınrsız çay',
