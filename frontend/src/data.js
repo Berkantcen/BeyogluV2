@@ -460,7 +460,7 @@ export const categories = [
       },
       {
         name: 'Soğuk Baklava',
-        price: 35,
+        price: 40,
         sub_category: 'Tatlı',
         description: null,
       },
@@ -508,7 +508,7 @@ export const categories = [
       },
       {
         name: 'Soğuk Baklava + Kahve',
-        price: 40,
+        price: 45,
         sub_category: 'Kampanyalar',
         description: null,
       },
