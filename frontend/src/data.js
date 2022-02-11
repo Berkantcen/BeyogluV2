@@ -447,24 +447,6 @@ export const categories = [
         description: null,
       },
       {
-        name: 'Kadayıf',
-        price: 30,
-        sub_category: 'Tatlı',
-        description: null,
-      },
-      {
-        name: 'Beyoğlu Fıstıkzade',
-        price: 40,
-        sub_category: 'Tatlı',
-        description: null,
-      },
-      {
-        name: 'Soğuk Baklava',
-        price: 40,
-        sub_category: 'Tatlı',
-        description: null,
-      },
-      {
         name: 'Sütlaç',
         price: 25,
         sub_category: 'Tatlı',
@@ -494,24 +476,7 @@ export const categories = [
         sub_category: 'Kampanyalar',
         description: null,
       },
-      {
-        name: 'Kadayıf + Kahve',
-        price: 35,
-        sub_category: 'Kampanyalar',
-        description: null,
-      },
-      {
-        name: 'Fıstıkzade + Kahve',
-        price: 45,
-        sub_category: 'Kampanyalar',
-        description: null,
-      },
-      {
-        name: 'Soğuk Baklava + Kahve',
-        price: 45,
-        sub_category: 'Kampanyalar',
-        description: null,
-      },
+
       {
         name: 'Kıbrıs Tatlısı + Kahve',
         price: 35,
