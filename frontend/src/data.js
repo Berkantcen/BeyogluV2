@@ -95,7 +95,7 @@ export const categories = [
   },
   {
     name: 'Burger',
-    sub_message: 'Çaylar ve Salatalar İkramımızdır',
+    sub_message: 'Çaylar İkramımızdır',
     sub_category: null,
     image: 'https://s10.gifyu.com/images/burger.jpg',
     bg: 'dark',
@@ -139,7 +139,7 @@ export const categories = [
   },
   {
     name: 'Pizza',
-    sub_message: 'Çaylar ve Salatalar İkramımızdır',
+    sub_message: 'Çaylar İkramımızdır',
     sub_category: null,
     image: 'https://s10.gifyu.com/images/pizzad64e56d86117e585.jpg',
     bg: 'light',
@@ -320,7 +320,7 @@ export const categories = [
   },
   {
     name: 'Salatalar',
-    sub_message: 'Çaylar ve Salatalar İkramımızdır',
+    sub_message: 'Çaylar İkramımızdır',
     sub_category: null,
     image: 'https://s10.gifyu.com/images/salad.jpg',
     bg: 'dark',
@@ -466,26 +466,26 @@ export const categories = [
       },
       {
         name: 'Sütlaç + Kahve',
-        price: 30,
+        price: 35,
         sub_category: 'Kampanyalar',
         description: null,
       },
       {
         name: 'Tahinli Sütlaç + Kahve',
-        price: 35,
+        price: 40,
         sub_category: 'Kampanyalar',
         description: null,
       },
 
       {
         name: 'Kıbrıs Tatlısı + Kahve',
-        price: 35,
+        price: 40,
         sub_category: 'Kampanyalar',
         description: null,
       },
       {
         name: 'Dondurmalı Islak Kek + Kahve',
-        price: 35,
+        price: 40,
         sub_category: 'Kampanyalar',
         description: null,
       },
@@ -681,4 +681,4 @@ export const categories = [
       },
     ],
   },
-]
+];
