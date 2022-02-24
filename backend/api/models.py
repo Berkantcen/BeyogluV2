@@ -1,4 +1,5 @@
 from django.db import models
+from django.forms import ValidationError
 
 class Category(models.Model):
     name = models.CharField(max_length=100)
@@ -8,6 +9,12 @@ class Category(models.Model):
     sub_message = models.TextField(blank=True)
     image = models.TextField(blank=True)
     bg = models.TextField(blank=True)
+    
+    def save(self, *args, **kwargs):
+        if self.parent and self.parent.id == self.id:
+            raise ValidationError("parent kendisine eşit olamaz!")
+        return super(Category, self).save(*args, **kwargs)
+    
     
     def __str__(self):
         return self.name
