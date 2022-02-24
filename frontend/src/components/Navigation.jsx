@@ -1,20 +1,9 @@
-import React from 'react';
-import { useState } from 'react';
+import { useContext } from 'react';
 import ClickAwayListener from 'react-click-away-listener';
+import AppLevelContext from '../context/AppLevelContext'
 
 const Navigation = ({ setIsOpen }) => {
-  const [navList, setNavList] = useState([
-    'Kahvaltı',
-    'Burger',
-    'Pizza',
-    'Mangal',
-    'Kırmızı Et',
-    'Salatalar',
-    'Beyaz Et',
-    'Waffle',
-    'Tatlılar',
-    'İçecekler',
-  ]);
+  const { menuList } = useContext(AppLevelContext)
 
   const handleClickAway = () => {
     setIsOpen(false);
@@ -23,15 +12,15 @@ const Navigation = ({ setIsOpen }) => {
   return (
     <ClickAwayListener onClickAway={handleClickAway}>
       <ul className="navigation-list">
-        {navList.map((nav, idx) => (
-          <li className="navigation-item" key={idx}>
+        {menuList.map((menu) => (
+          <li className="navigation-item" key={menu.id}>
             <a
-              href={`#${nav}`}
+              href={`#${menu.name}`}
               onClick={() => {
                 setIsOpen(false);
               }}
             >
-              {nav}
+              {menu.name}
             </a>
           </li>
         ))}
