@@ -5,10 +5,11 @@ import CategoryItem from './CategoryItem'
 
 const CategoryList = () => {
   const { menuList } = useContext(AppLevelContext)
+
   return (
     <div className='category-container'>
-      {menuList.map((category, idx) => (
-        <CategoryItem category={category} key={idx} />
+      {menuList.map((category) => (
+        <CategoryItem category={category} key={category.id} />
       ))}
     </div>
   )

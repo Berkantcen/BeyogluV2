@@ -5,7 +5,7 @@ import { categories } from '../data'
 const AppLevelContext = createContext()
 
 export const AppLevelProvider = ({ children }) => {
-  const [menuList, setMenuList] = useState(categories)
+  const [menuList, setMenuList] = useState(/*categories*/ [])
   return (
     <AppLevelContext.Provider
       value={{
