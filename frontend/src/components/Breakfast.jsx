@@ -10,11 +10,15 @@ const Breakfast = () => {
 
       <div className='breakfast-info'>
         <h4>
-          4 çeşit yöresel peynir, 2 çeşit zeytin, bal, kaymak, tereyağı, krem
-          çikolata, isot ezmesi, çemen, beyoğlu ezme murtuğa,süzme yoğurtlu acı
-          biber reçeli, 2 çeşit ev reçeli, böğürtlenli lor, domates, salatalık,
-          yeşillik, biber, patlıcan ve patates kızartması, pişi, sucuklu
-          yumurta, menemen, sigara böreği ve sınırsız çay.
+          <span>Soğuklar</span> : 4 çeşit yöresel peynir, 2 çeşit zeytin, bal,
+          kaymak, tereyağı, krem çikolata, isot ezmesi, çemen, murtuğa,süzme
+          yoğurtlu acı biber reçeli, 2 çeşit ev reçeli, böğürtlenli lor,
+          domates, salatalık, yeşillik, mevsim meyveleri
+        </h4>
+        <h4>
+          <span>Sıcaklar</span> : Biber, patlıcan ve patates kızartması, pişi,
+          sucuklu yumurta, menemen, sigara böreği, yumurtalı ekmek, börek, sıcak
+          helva ve çay.
         </h4>
         <h2>Kişi Başı - 70 TL</h2>
         <h3>Çocuk - 35 TL</h3>
@@ -22,7 +26,7 @@ const Breakfast = () => {
         <p>Açılan her servis ücretlendirilir</p>
         <p>Bütün ürünler ve çaylar sınırsızdır.</p>
         <p>0-6 yaş arası ücretsiz</p>
-        <p>6-10 yaş arası 30 TL</p>
+        <p>6-10 yaş arası 35 TL</p>
       </div>
     </div>
   )

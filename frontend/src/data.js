@@ -50,6 +50,12 @@ export const categories = [
         description: null,
       },
       {
+        name: 'Çiğ Köfte',
+        price: 25,
+        sub_category: 'Aperatifler',
+        description: null,
+      },
+      {
         name: 'Sucuklu Yumurta',
         price: 20,
         sub_category: 'Yumurtalar',
@@ -396,36 +402,6 @@ export const categories = [
       },
     ],
   },
-  // {
-  //   name: 'Waffle',
-  //   sub_message: null,
-  //   sub_category: null,
-  //   image: 'https://s10.gifyu.com/images/waffle.jpg',
-  //   bg: 'dark',
-  //   items: [
-  //     {
-  //       name: 'Classic Waffle',
-  //       price: 43,
-  //       sub_category: null,
-  //       description:
-  //         'Sütlü alt çikolata, muz, çilek, kivi, parça antep fıstığı,yer fıstığı, sütlü üst sos',
-  //     },
-  //     {
-  //       name: 'Çikolata Aşkı',
-  //       price: 43,
-  //       sub_category: null,
-  //       description:
-  //         'Bitter dip çikolata, muz, çilek, kivi, toz fındık, ceviz, kestane, bitter damla drop, bitter üst sos',
-  //     },
-  //     {
-  //       name: 'Tropik Waffle',
-  //       price: 43,
-  //       sub_category: null,
-  //       description:
-  //         'Sütlü alt çikolata, muz, kivi, ananas, parça fındık, çakıl taşı, frambuaz ve muzlu üst sos, bitter üst sos',
-  //     },
-  //   ],
-  // },
   {
     name: 'Tatlı ve Kampanyalar',
     sub_message: null,
@@ -443,6 +419,31 @@ export const categories = [
       {
         name: 'Dondurmalı Islak Kek',
         price: 30,
+        sub_category: 'Tatlı',
+        description: null,
+      },
+      {
+        name: 'Fıstık Baklava',
+        price: 40,
+        sub_category: 'Tatlı',
+        description: null,
+      },
+      {
+        name: 'Fıstık Dolama',
+        price: 40,
+        sub_category: 'Tatlı',
+        description: null,
+      },
+
+      {
+        name: 'Midye',
+        price: 40,
+        sub_category: 'Tatlı',
+        description: null,
+      },
+      {
+        name: 'Soğuk Baklava',
+        price: 40,
         sub_category: 'Tatlı',
         description: null,
       },
@@ -486,6 +487,30 @@ export const categories = [
       {
         name: 'Dondurmalı Islak Kek + Kahve',
         price: 40,
+        sub_category: 'Kampanyalar',
+        description: null,
+      },
+      {
+        name: 'Fıstık Baklava + Kahve',
+        price: 50,
+        sub_category: 'Kampanyalar',
+        description: null,
+      },
+      {
+        name: 'Fıstık Dolama + Kahve',
+        price: 50,
+        sub_category: 'Kampanyalar',
+        description: null,
+      },
+      {
+        name: 'Midye + Kahve',
+        price: 50,
+        sub_category: 'Kampanyalar',
+        description: null,
+      },
+      {
+        name: 'Soğuk Baklava + Kahve',
+        price: 50,
         sub_category: 'Kampanyalar',
         description: null,
       },
@@ -580,6 +605,12 @@ export const categories = [
         description: null,
       },
       {
+        name: 'Yeşil Çay',
+        price: 17.5,
+        sub_category: 'Bitki Çayları',
+        description: null,
+      },
+      {
         name: 'Ihlamur',
         price: 17.5,
         sub_category: 'Bitki Çayları',
@@ -614,37 +645,37 @@ export const categories = [
       },
       {
         name: 'Soda',
-        price: 7,
+        price: 8,
         sub_category: null,
         description: null,
       },
       {
         name: 'Ayran',
-        price: 7,
+        price: 8,
         sub_category: null,
         description: null,
       },
       {
         name: 'Kola ',
-        price: 10,
+        price: 12,
         sub_category: null,
         description: null,
       },
       {
         name: 'Fanta ',
-        price: 10,
+        price: 12,
         sub_category: null,
         description: null,
       },
       {
         name: 'FuseTea ',
-        price: 10,
+        price: 12,
         sub_category: null,
         description: null,
       },
       {
         name: 'Gazoz ',
-        price: 10,
+        price: 12,
         sub_category: null,
         description: null,
       },
@@ -657,28 +688,28 @@ export const categories = [
       },
       {
         name: 'Şıra',
-        price: 10,
+        price: 12,
         sub_category: null,
         description: null,
       },
       {
         name: 'Churchil',
-        price: 10,
+        price: 12,
         sub_category: null,
         description: null,
       },
       {
         name: 'Soda-Limon',
-        price: 10,
+        price: 12,
         sub_category: null,
         description: null,
       },
       {
         name: 'Taze Sıkma Portakal Suyu ',
-        price: 17.5,
+        price: 20,
         sub_category: null,
         description: null,
       },
     ],
   },
-];
+]
