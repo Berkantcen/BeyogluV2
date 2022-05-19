@@ -402,6 +402,43 @@ export const categories = [
     ],
   },
   {
+    name: 'Waffle',
+    sub_message: null,
+    sub_category: null,
+    image: null,
+    bg: 'dark',
+    items: [
+      {
+        name: 'Klasik Waffle',
+        price: 55,
+        sub_category: null,
+        description:
+          'Sütlü dip sos üzerinde muz, çilek, kivi, parça fındık, parça fıstık, sütlü üst sos ',
+      },
+      {
+        name: 'Çikolata Aşkı',
+        price: 55,
+        sub_category: null,
+        description:
+          'Bitter dip sos üzerinde muz, çilek, kivi, toz fındık, ceviz, damla bitter drop, bittter üst sos ',
+      },
+      {
+        name: 'Tropik Waffle',
+        price: 55,
+        sub_category: null,
+        description:
+          'Sütlü dip sos, üzerinde muz kivi ananas parça fındık, çakıl taşı, üzerinde frambuaz ve muz sos ',
+      },
+      {
+        name: 'Klasik Waffle',
+        price: 60,
+        sub_category: null,
+        description:
+          'Sütlü dip sos üzerinde muz çilek, 3 top dondurma ceviz, bitter üst sos',
+      },
+    ],
+  },
+  {
     name: 'Tatlı ve Kampanyalar',
     sub_message: null,
     sub_category: ['Tatlı', 'Kampanyalar'],
@@ -424,46 +461,59 @@ export const categories = [
 
       {
         name: 'Dondurmalı Islak Kek',
-        price: 35,
-        sub_category: 'Tatlı',
-        description: null,
-      },
-      {
-        name: 'Sütlaç',
         price: 30,
         sub_category: 'Tatlı',
         description: null,
       },
       {
-        name: 'Tahinli Fındıklı Sütlaç',
-        price: 35,
-        sub_category: 'Tatlı',
-        description: null,
-      },
-      {
         name: 'Kıbrıs Tatlısı',
-        price: 35,
+        price: 30,
         sub_category: 'Tatlı',
         description: null,
       },
       {
         name: 'Tiramisu',
-        price: 40,
+        price: 30,
         sub_category: 'Tatlı',
         description: null,
       },
       {
-        name: 'Sütlaç + Kahve',
-        price: 40,
-        sub_category: 'Kampanyalar',
+        name: 'Suffle',
+        price: 30,
+        sub_category: 'Tatlı',
         description: null,
       },
       {
-        name: 'Tahinli Sütlaç + Kahve',
-        price: 45,
-        sub_category: 'Kampanyalar',
+        name: 'Fıstık Rüyası',
+        price: 30,
+        sub_category: 'Tatlı',
         description: null,
       },
+      {
+        name: 'Devils Pasta',
+        price: 30,
+        sub_category: 'Tatlı',
+        description: null,
+      },
+      {
+        name: 'Karaorman Meyveli Pasta',
+        price: 30,
+        sub_category: 'Tatlı',
+        description: null,
+      },
+      {
+        name: 'Franbuazlı Cheesscake',
+        price: 30,
+        sub_category: 'Tatlı',
+        description: null,
+      },
+      {
+        name: 'Limonlu Cheesscake',
+        price: 30,
+        sub_category: 'Tatlı',
+        description: null,
+      },
+
       {
         name: 'Magnolia + Kahve',
         price: 40,
@@ -485,7 +535,25 @@ export const categories = [
       },
       {
         name: 'Tiramisu  + Kahve',
-        price: 50,
+        price: 45,
+        sub_category: 'Kampanyalar',
+        description: null,
+      },
+      {
+        name: 'Suffle  + Kahve',
+        price: 45,
+        sub_category: 'Kampanyalar',
+        description: null,
+      },
+      {
+        name: 'Cheesecake  + Kahve',
+        price: 45,
+        sub_category: 'Kampanyalar',
+        description: null,
+      },
+      {
+        name: 'Pasta  + Kahve',
+        price: 45,
         sub_category: 'Kampanyalar',
         description: null,
       },
@@ -725,13 +793,13 @@ export const categories = [
       },
       {
         name: 'Soda',
-        price: 9,
+        price: 10,
         sub_category: null,
         description: null,
       },
       {
         name: 'Ayran',
-        price: 9,
+        price: 10,
         sub_category: null,
         description: null,
       },
