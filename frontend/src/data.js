@@ -21,25 +21,25 @@ export const categories = [
       },
       {
         name: 'Az Mercimek Çorbası',
-        price: 17,
+        price: 20,
         sub_category: 'Çorbalar',
         description: null,
       },
       {
         name: 'Tam Mercimek Çorbası',
-        price: 20,
+        price: 25,
         sub_category: 'Çorbalar',
         description: null,
       },
       {
         name: 'Az Terbiyeli Mercimek Çorbası',
-        price: 20,
+        price: 23,
         sub_category: 'Çorbalar',
         description: null,
       },
       {
         name: 'Terbiyeli Mercimek Çorbası',
-        price: 24,
+        price: 28,
         sub_category: 'Çorbalar',
         description: null,
       },
@@ -58,43 +58,43 @@ export const categories = [
 
       {
         name: 'Sucuklu Yumurta',
-        price: 30,
+        price: 35,
         sub_category: 'Yumurtalar',
         description: null,
       },
       {
         name: 'Menemen',
-        price: 30,
+        price: 35,
         sub_category: 'Yumurtalar',
         description: null,
       },
       {
         name: 'Kavurmali Yumurta',
-        price: 37,
+        price: 42,
         sub_category: 'Yumurtalar',
         description: null,
       },
       {
         name: 'Peynirli Omlet',
-        price: 34,
+        price: 39,
         sub_category: 'Yumurtalar',
         description: null,
       },
       {
         name: 'Kaşarlı Omlet',
-        price: 34,
+        price: 39,
         sub_category: 'Yumurtalar',
         description: null,
       },
       {
         name: 'Sebzeli Omlet',
-        price: 34,
+        price: 39,
         sub_category: 'Yumurtalar',
         description: null,
       },
       {
         name: 'Kavurmalı Omlet',
-        price: 34,
+        price: 42,
         sub_category: 'Yumurtalar',
         description: null,
       },
@@ -127,35 +127,42 @@ export const categories = [
         price: 55,
         sub_category: null,
         description:
-          'Özel soslar ile marine edilmiş 160gr ızgara tavuk,karamelize soğan, domates,burger turşusu,el yapımı burger ekmeği,yanında patates kızartması, 2 adet soğan halkası ',
+          'Özel soslar ile marine edilmiş 150gr ızgara tavuk,karamelize soğan, domates,marul,burger turşusu,el yapımı burger ekmeği,yanında patates kızartması, 2 adet soğan halkası ',
       },
       {
         name: 'Klasik Burger',
         price: 59,
         sub_category: null,
         description:
-          '160gr kasap kıyma eti, karamelize soğan, domates, burger turşusu,karamelize soğan,el yapımı burger ekmeği,yanında patates kızartması, 2 adet soğan halkası ',
+          '150gr dana eti, karamelize soğan, domates, burger turşusu,karamelize soğan,marul,el yapımı burger ekmeği,yanında patates kızartması, 2 adet soğan halkası ',
       },
       {
         name: 'Cheese Burger',
         price: 64,
         sub_category: null,
         description:
-          '160gr kasap kıyma eti, cheddar peyniri,karamelize soğan, domates, burger turşusu, el yapımı burger ekmeği, yanında patates kızartması, 2 adet soğan halkası ',
+          '150gr dana eti, cheddar peyniri,karamelize soğan, domates, burger turşusu,marul, el yapımı burger ekmeği, yanında patates kızartması, 2 adet soğan halkası ',
       },
       {
         name: 'BBQ Burger',
         price: 64,
         sub_category: null,
         description:
-          '160gr kasap kıyma eti, cheddar peyniri,karamelize soğan, domates, burger turşusu, bbq sos, el yapımı burger ekmeği, yanında patates kızartması, 2 adet soğan halkası ',
+          '150gr dana eti, cheddar peyniri,karamelize soğan, domates, burger turşusu,marul, bbq sos, el yapımı burger ekmeği, yanında patates kızartması, 2 adet soğan halkası ',
       },
       {
         name: 'Anadolu Burger',
         price: 68,
         sub_category: null,
         description:
-          '160gr kasap kıyma eti, pastırma, cheddar peyniri,karamelize soğan, domates, burger turşusu, el yapımı burger ekmeği, yanında patates kızartması, 2 adet soğan halkası ',
+          '150gr dana eti, pastırma, cheddar peyniri,karamelize soğan, domates,marul, burger turşusu, el yapımı burger ekmeği, yanında patates kızartması, 2 adet soğan halkası ',
+      },
+      {
+        name: 'Beyoğlu Burger',
+        price: 72,
+        sub_category: null,
+        description:
+          '150gr dana eti , dana füme, karamelize soğan, burger turşusu, domates, marul, közlenmiş biber, cheddar peyniri ve patates kızartması  ve 2 adet soğan halkası eşliğinde servis edilir ',
       },
     ],
   },
@@ -188,7 +195,14 @@ export const categories = [
           'Domates sos, mozzarella, kasap sucuk, sivri biber,yanında patates kızartması ',
       },
       {
-        name: 'Ton Balıklı Pizza',
+        name: 'Salami Pizza',
+        price: 65,
+        sub_category: null,
+        description:
+          'Domates sos, mozerealla peyniri, salam ve yanında patates kızartması',
+      },
+      {
+        name: 'Tonno Pizza',
         price: 65,
         sub_category: null,
         description:
@@ -214,6 +228,13 @@ export const categories = [
         sub_category: null,
         description:
           'Domates sos, mozzarella, kavurma yanında patates kızartması ',
+      },
+      {
+        name: 'Beyoğlu Pizza',
+        price: 80,
+        sub_category: null,
+        description:
+          'Domates sos, mozzarella, kavurma, köz patlıcan, közlenmiş biber, yanında patates kızartması  ',
       },
     ],
   },
@@ -270,19 +291,19 @@ export const categories = [
 
       {
         name: 'Terbiyesiz Kuşbaşı (Acısız)',
-        price: 95,
+        price: 110,
         sub_category: null,
         description: '200gr dinlendirilmiş dana bonfile',
       },
       {
         name: 'Terbiyeli Kuşbaşı(Acılı)',
-        price: 95,
+        price: 110,
         sub_category: null,
         description: '200gr terbiyelenmiş soslu dana bonfile ',
       },
       {
         name: 'Ali Nazik',
-        price: 105,
+        price: 125,
         sub_category: null,
         description:
           'Közlenmiş patlıcan üzerine, terbiyelenmiş 200gr dana bonfile ile tereyağlı sos ',
@@ -298,26 +319,26 @@ export const categories = [
     items: [
       {
         name: 'Bodrum Çökertme',
-        price: 110,
+        price: 120,
         sub_category: null,
         description:
           'Kibrit patates üstüne yoğurt, 200gr dana dana bonfile üzerine tereyağlı sos, ',
       },
       {
         name: 'Mantarlı Bonfile',
-        price: 110,
+        price: 120,
         sub_category: null,
         description: '200gr mantar soslu dana bonfile ',
       },
       {
         name: 'Fajita',
-        price: 110,
+        price: 120,
         sub_category: null,
         description: 'Jülyan 200gr dana bonfile ',
       },
       {
         name: 'Beyoğlu Gurme Special',
-        price: 110,
+        price: 120,
         sub_category: null,
         description: '200gr doğranmış dana bonfile,',
       },
@@ -430,7 +451,7 @@ export const categories = [
           'Sütlü dip sos, üzerinde muz kivi ananas parça fındık, çakıl taşı, üzerinde frambuaz ve muz sos ',
       },
       {
-        name: 'Klasik Waffle',
+        name: 'Dondurmalı Waffle',
         price: 60,
         sub_category: null,
         description:
@@ -461,99 +482,71 @@ export const categories = [
 
       {
         name: 'Dondurmalı Islak Kek',
-        price: 30,
+        price: 35,
         sub_category: 'Tatlı',
         description: null,
       },
       {
         name: 'Kıbrıs Tatlısı',
-        price: 30,
+        price: 35,
         sub_category: 'Tatlı',
         description: null,
       },
-      {
-        name: 'Tiramisu',
-        price: 30,
-        sub_category: 'Tatlı',
-        description: null,
-      },
+
       {
         name: 'Suffle',
-        price: 30,
+        price: 35,
         sub_category: 'Tatlı',
         description: null,
       },
       {
-        name: 'Fıstık Rüyası',
-        price: 30,
+        name: 'Dondurmalı Pasta',
+        price: 35,
         sub_category: 'Tatlı',
         description: null,
       },
       {
-        name: 'Devils Pasta',
-        price: 30,
-        sub_category: 'Tatlı',
-        description: null,
-      },
-      {
-        name: 'Karaorman Meyveli Pasta',
-        price: 30,
-        sub_category: 'Tatlı',
-        description: null,
-      },
-      {
-        name: 'Franbuazlı Cheesscake',
-        price: 30,
-        sub_category: 'Tatlı',
-        description: null,
-      },
-      {
-        name: 'Limonlu Cheesscake',
-        price: 30,
+        name: 'Dilim Pastalar',
+        price: 35,
         sub_category: 'Tatlı',
         description: null,
       },
 
       {
         name: 'Magnolia + Kahve',
-        price: 40,
+        price: 45,
         sub_category: 'Kampanyalar',
         description: null,
       },
 
       {
         name: 'Kıbrıs Tatlısı + Kahve',
-        price: 45,
+        price: 50,
         sub_category: 'Kampanyalar',
         description: null,
       },
       {
         name: 'Dondurmalı Islak Kek + Kahve',
-        price: 45,
+        price: 50,
         sub_category: 'Kampanyalar',
         description: null,
       },
-      {
-        name: 'Tiramisu  + Kahve',
-        price: 45,
-        sub_category: 'Kampanyalar',
-        description: null,
-      },
+
       {
         name: 'Suffle  + Kahve',
-        price: 45,
+        price: 50,
         sub_category: 'Kampanyalar',
         description: null,
       },
       {
-        name: 'Cheesecake  + Kahve',
-        price: 45,
+        name: 'Dondurmalı Pasta  + Kahve',
+        price: 50,
         sub_category: 'Kampanyalar',
         description: null,
       },
       {
-        name: 'Pasta  + Kahve',
-        price: 45,
+        name: ' Dilim Pasta  + Kahve',
+        price: 50,
         sub_category: 'Kampanyalar',
         description: null,
       },
@@ -562,80 +555,80 @@ export const categories = [
   {
     name: 'Sıcak Kahveler',
     sub_message: null,
-    sub_category: ['Demleme Filtre Kahve', 'Türk Kahveleri'],
+    sub_category: ['Türk Kahveleri', 'Tchibo Kahveleri'],
     image: 'https://s10.gifyu.com/images/kahve.jpg',
     bg: 'dark',
     items: [
       {
         name: 'Espresso',
-        price: 20,
-        sub_category: 'Espresso Bazlı Kahveler',
+        price: 15,
+        sub_category: 'Tchibo Kahveleri',
         description: null,
       },
       {
         name: 'Double Espresso',
-        price: 23,
-        sub_category: 'Espresso Bazlı Kahveler',
+        price: 19,
+        sub_category: 'Tchibo Kahveleri',
         description: null,
       },
       {
         name: 'Americano',
-        price: 23,
-        sub_category: 'Espresso Bazlı Kahveler',
+        price: 19,
+        sub_category: 'Tchibo Kahveleri',
         description: null,
       },
       {
         name: 'Cappucino',
-        price: 25,
-        sub_category: 'Espresso Bazlı Kahveler',
+        price: 19,
+        sub_category: 'Tchibo Kahveleri',
         description: null,
       },
       {
         name: 'Vanilyalı Cappucino',
-        price: 25,
-        sub_category: 'Espresso Bazlı Kahveler',
+        price: 19,
+        sub_category: 'Tchibo Kahveleri',
         description: null,
       },
       {
         name: 'Latte',
-        price: 25,
-        sub_category: 'Espresso Bazlı Kahveler',
+        price: 19,
+        sub_category: 'Tchibo Kahveleri',
         description: null,
       },
       {
         name: 'Mocha',
-        price: 25,
-        sub_category: 'Espresso Bazlı Kahveler',
+        price: 19,
+        sub_category: 'Tchibo Kahveleri',
         description: null,
       },
       {
         name: 'Sütlü Kahve',
-        price: 25,
-        sub_category: 'Espresso Bazlı Kahveler',
+        price: 19,
+        sub_category: 'Tchibo Kahveleri',
         description: null,
       },
       {
         name: 'Sıcak Çikolata',
-        price: 25,
-        sub_category: 'Espresso Bazlı Kahveler',
+        price: 19,
+        sub_category: 'Tchibo Kahveleri',
         description: null,
       },
       {
         name: 'Sütlü Sıcak Çikolata',
-        price: 25,
-        sub_category: 'Espresso Bazlı Kahveler',
+        price: 19,
+        sub_category: 'Tchibo Kahveleri',
         description: null,
       },
       {
         name: 'Filtre Kahve',
-        price: 23,
-        sub_category: 'Demleme Filtre Kahve',
+        price: 19,
+        sub_category: 'Tchibo Kahveleri',
         description: null,
       },
       {
         name: 'Sütlü Filtre Kahve',
-        price: 28,
-        sub_category: 'Demleme Filtre Kahve',
+        price: 19,
+        sub_category: 'Tchibo Kahveleri',
         description: null,
       },
       {
@@ -683,12 +676,7 @@ export const categories = [
         sub_category: null,
         description: null,
       },
-      {
-        name: 'Soğuk Sahlep',
-        price: 25,
-        sub_category: null,
-        description: null,
-      },
+
       {
         name: 'Soğuk Filtre Kahve',
         price: 25,
@@ -779,11 +767,44 @@ export const categories = [
     ],
   },
   {
+    name: 'Kıbrıs Limonatası',
+    sub_message: null,
+    sub_category: null,
+    image: null,
+    bg: 'light',
+    items: [
+      {
+        name: 'Limonata',
+        price: 20,
+        sub_category: null,
+        description: null,
+      },
+      {
+        name: 'Çilekli Limonata',
+        price: 25,
+        sub_category: null,
+        description: null,
+      },
+      {
+        name: 'Orman Meyveli Limonata',
+        price: 25,
+        sub_category: null,
+        description: null,
+      },
+      {
+        name: 'Yeşil Elmalı Limonata',
+        price: 25,
+        sub_category: null,
+        description: null,
+      },
+    ],
+  },
+  {
     name: 'Soğuk İçecekler',
     sub_message: null,
     sub_category: null,
     image: 'https://s10.gifyu.com/images/kola.jpg',
-    bg: 'light',
+    bg: 'dark',
     items: [
       {
         name: 'Su',
@@ -822,14 +843,20 @@ export const categories = [
         description: null,
       },
       {
-        name: 'Gazoz ',
+        name: 'Beyoğlu Gazoz ',
         price: 13,
+        sub_category: null,
+        description: null,
+      },
+      {
+        name: 'Zencefilli Beyoğlu Gazoz ',
+        price: 14,
         sub_category: null,
         description: null,
       },
 
       {
-        name: 'Şalgam',
+        name: 'Organik Adana Şalgamı',
         price: 10,
         sub_category: null,
         description: null,
