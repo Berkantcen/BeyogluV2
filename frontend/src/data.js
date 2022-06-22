@@ -119,7 +119,8 @@ export const categories = [
     name: 'Burger',
     sub_message: 'Çaylar İkramımızdır',
     sub_category: null,
-    image: 'https://s10.gifyu.com/images/burger.jpg',
+    image:
+      'https://s8.gifyu.com/images/WhatsApp-Image-2022-05-28-at-7.35.29-PM.jpg',
     bg: 'light',
     items: [
       {
@@ -242,7 +243,8 @@ export const categories = [
     name: 'Mangal',
     sub_message: 'Çaylar ve Salatalar İkramımızdır',
     sub_category: null,
-    image: 'https://s10.gifyu.com/images/kebap-min.jpg',
+    image:
+      'https://s8.gifyu.com/images/WhatsApp-Image-2022-05-30-at-4.23.39-PM.jpg',
     bg: 'light',
     items: [
       {
@@ -314,7 +316,8 @@ export const categories = [
     name: 'Kırmızı Et',
     sub_message: 'Çaylar ve Salatalar İkramımızdır',
     sub_category: null,
-    image: 'https://s10.gifyu.com/images/bodrum.jpg',
+    image:
+      'https://s8.gifyu.com/images/WhatsApp-Image-2022-05-30-at-4.23.40-PM.jpg',
     bg: 'dark',
     items: [
       {
@@ -427,7 +430,7 @@ export const categories = [
     sub_message: null,
     sub_category: null,
     image: null,
-    bg: 'dark',
+    bg: 'light',
     items: [
       {
         name: 'Klasik Waffle',
@@ -465,7 +468,7 @@ export const categories = [
     sub_category: ['Tatlı', 'Kampanyalar'],
     image:
       'https://s10.gifyu.com/images/fbe25bb1-130a-408f-a385-4d3765356972.jpg',
-    bg: 'ligth',
+    bg: 'dark',
     items: [
       {
         name: 'Kup Dondurma (3 Top)',
@@ -557,7 +560,7 @@ export const categories = [
     sub_message: null,
     sub_category: ['Türk Kahveleri', 'Tchibo Kahveleri'],
     image: 'https://s10.gifyu.com/images/kahve.jpg',
-    bg: 'dark',
+    bg: 'light',
     items: [
       {
         name: 'Espresso',
@@ -662,7 +665,7 @@ export const categories = [
     sub_message: null,
     sub_category: null,
     image: 'https://s1.gifyu.com/images/sogukkahve.jpg',
-    bg: 'light',
+    bg: 'dark',
     items: [
       {
         name: 'Milksahe',
@@ -714,7 +717,7 @@ export const categories = [
     sub_message: null,
     sub_category: ['Sıcak İçecekler', 'Bitki Çayları'],
     image: 'https://s10.gifyu.com/images/vay.jpg',
-    bg: 'dark',
+    bg: 'light',
     items: [
       {
         name: 'Çay',
@@ -767,10 +770,27 @@ export const categories = [
     ],
   },
   {
+    name: 'Karadut',
+    sub_message: null,
+    sub_category: null,
+    image:
+      'https://s8.gifyu.com/images/WhatsApp-Image-2022-06-22-at-2.16.11-PM.jpg',
+    bg: 'dark',
+    items: [
+      {
+        name: 'Karadut',
+        price: 20,
+        sub_category: null,
+        description: null,
+      },
+    ],
+  },
+  {
     name: 'Kıbrıs Limonatası',
     sub_message: null,
     sub_category: null,
-    image: null,
+    image:
+      'https://s8.gifyu.com/images/WhatsApp-Image-2022-05-30-at-4.23.51-PM.jpg',
     bg: 'light',
     items: [
       {
@@ -794,6 +814,12 @@ export const categories = [
       {
         name: 'Yeşil Elmalı Limonata',
         price: 25,
+        sub_category: null,
+        description: null,
+      },
+      {
+        name: 'Karadut',
+        price: 20,
         sub_category: null,
         description: null,
       },
