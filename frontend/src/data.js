@@ -171,7 +171,8 @@ export const categories = [
     name: 'Pizza',
     sub_message: 'Çaylar İkramımızdır',
     sub_category: null,
-    image: 'https://s10.gifyu.com/images/pizzad64e56d86117e585.jpg',
+    image:
+      'https://s8.gifyu.com/images/WhatsApp-Image-2022-06-23-at-2.49.50-PM.jpg',
     bg: 'dark',
     items: [
       {
@@ -244,7 +245,7 @@ export const categories = [
     sub_message: 'Çaylar ve Salatalar İkramımızdır',
     sub_category: null,
     image:
-      'https://s8.gifyu.com/images/WhatsApp-Image-2022-05-30-at-4.23.39-PM.jpg',
+      'https://s8.gifyu.com/images/WhatsApp-Image-2022-05-28-at-7.35.53-PM.jpg',
     bg: 'light',
     items: [
       {
@@ -429,7 +430,8 @@ export const categories = [
     name: 'Waffle',
     sub_message: null,
     sub_category: null,
-    image: null,
+    image:
+      'https://s8.gifyu.com/images/WhatsApp-Image-2022-05-28-at-6.19.57-PM.jpg',
     bg: 'light',
     items: [
       {
@@ -559,7 +561,8 @@ export const categories = [
     name: 'Sıcak Kahveler',
     sub_message: null,
     sub_category: ['Türk Kahveleri', 'Tchibo Kahveleri'],
-    image: 'https://s10.gifyu.com/images/kahve.jpg',
+    image:
+      'https://s8.gifyu.com/images/WhatsApp-Image-2022-06-23-at-2.49.39-PM.jpg',
     bg: 'light',
     items: [
       {
@@ -829,73 +832,73 @@ export const categories = [
     name: 'Soğuk İçecekler',
     sub_message: null,
     sub_category: null,
-    image: 'https://s10.gifyu.com/images/kola.jpg',
+    image: 'https://s8.gifyu.com/images/Screen-Shot-2022-06-23-at-13.10.04.png',
     bg: 'dark',
     items: [
       {
         name: 'Su',
-        price: 5,
+        price: 6.5,
         sub_category: null,
         description: null,
       },
       {
         name: 'Soda',
-        price: 10,
+        price: 12,
         sub_category: null,
         description: null,
       },
       {
         name: 'Ayran',
-        price: 10,
+        price: 12,
         sub_category: null,
         description: null,
       },
       {
         name: 'Kola ',
-        price: 13,
+        price: 14,
         sub_category: null,
         description: null,
       },
       {
         name: 'Fanta ',
-        price: 13,
+        price: 14,
         sub_category: null,
         description: null,
       },
       {
         name: 'FuseTea ',
-        price: 13,
+        price: 14,
         sub_category: null,
         description: null,
       },
       {
         name: 'Beyoğlu Gazoz ',
-        price: 13,
+        price: 14,
         sub_category: null,
         description: null,
       },
       {
         name: 'Zencefilli Beyoğlu Gazoz ',
-        price: 14,
+        price: 15,
         sub_category: null,
         description: null,
       },
 
       {
         name: 'Organik Adana Şalgamı',
-        price: 10,
+        price: 12,
         sub_category: null,
         description: null,
       },
       {
         name: 'Şıra',
-        price: 13,
+        price: 14,
         sub_category: null,
         description: null,
       },
       {
         name: 'Churchil',
-        price: 13,
+        price: 14,
         sub_category: null,
         description: null,
       },
@@ -907,7 +910,7 @@ export const categories = [
       },
       {
         name: 'Taze Sıkma Portakal Suyu ',
-        price: 20,
+        price: 22.5,
         sub_category: null,
         description: null,
       },
