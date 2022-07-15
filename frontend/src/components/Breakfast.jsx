@@ -23,8 +23,8 @@ const Breakfast = () => {
           sucuklu yumurta, menemen, sigara böreği, yumurtalı ekmek, börek ve
           çay.
         </h4>
-        <h2>Kişi Başı - 95 TL</h2>
-        <h3>Çocuk - 40 TL</h3>
+        <h2>Kişi Başı - 120 TL</h2>
+        <h3>Çocuk - 50 TL</h3>
         <p>En az iki kişiliktir. </p>
         <p>Açılan her servis ücretlendirilir</p>
         <p>Bütün ürünler ve çaylar sınırsızdır.</p>

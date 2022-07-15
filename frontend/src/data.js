@@ -8,7 +8,7 @@ export const categories = [
     items: [
       {
         name: 'Tek kişilik Kahvaltı',
-        price: 80,
+        price: 100,
         sub_category: null,
         description:
           '4 Çeşit yöresel peynir, 2 çeşit zeytin, bal, kaymak, tereyağı, krem çikolata, isot ezmesi, çemen, murtuğa, reçel, domates, salatalık, yeşillik, patates kızartması, pişi, sahanda yumurta ve sınrsız çay',
@@ -70,7 +70,7 @@ export const categories = [
       },
       {
         name: 'Kavurmali Yumurta',
-        price: 42,
+        price: 48,
         sub_category: 'Yumurtalar',
         description: null,
       },
@@ -94,7 +94,7 @@ export const categories = [
       },
       {
         name: 'Kavurmalı Omlet',
-        price: 42,
+        price: 48,
         sub_category: 'Yumurtalar',
         description: null,
       },
@@ -177,63 +177,63 @@ export const categories = [
     items: [
       {
         name: 'İtalyan Pizza',
-        price: 65,
+        price: 75,
         sub_category: null,
         description:
           'Domates sos, mozzarella, sucuk, zeytin, kekik, mantar, biber, yanında patates kızartması ',
       },
       {
         name: 'Karışık Pizza',
-        price: 65,
+        price: 75,
         sub_category: null,
         description:
           'Domates sos, mozzarella, sucuk, salam, kırmızı biber, yeşil biber, mantar, zeytin, mısır, domates, yanında patates kızartması ',
       },
       {
         name: 'Sucuklu Pizza',
-        price: 65,
+        price: 75,
         sub_category: null,
         description:
           'Domates sos, mozzarella, kasap sucuk, sivri biber,yanında patates kızartması ',
       },
       {
         name: 'Salami Pizza',
-        price: 65,
+        price: 70,
         sub_category: null,
         description:
           'Domates sos, mozerealla peyniri, salam ve yanında patates kızartması',
       },
       {
         name: 'Tonno Pizza',
-        price: 65,
+        price: 75,
         sub_category: null,
         description:
           'Domates sos, mozzarella, ton balığı,biber mantar, mısır  yanında patates kızartması ',
       },
       {
         name: 'Margarita Pizza',
-        price: 65,
+        price: 75,
         sub_category: null,
         description:
           'Domates sos, mozzarella, fesleğen sos, yanında patates kızartması ',
       },
       {
         name: 'Dört Peynirli Pizza',
-        price: 65,
+        price: 75,
         sub_category: null,
         description:
           'Domates sos, mozzarella, beyaz peynir, parmesan, kaşar peyniri, yanında patates kızartması ',
       },
       {
         name: 'Kavurmalı Pizza',
-        price: 70,
+        price: 85,
         sub_category: null,
         description:
           'Domates sos, mozzarella, kavurma yanında patates kızartması ',
       },
       {
         name: 'Beyoğlu Pizza',
-        price: 80,
+        price: 90,
         sub_category: null,
         description:
           'Domates sos, mozzarella, kavurma, köz patlıcan, közlenmiş biber, yanında patates kızartması  ',
@@ -250,63 +250,76 @@ export const categories = [
     items: [
       {
         name: 'Kasap Köfte',
-        price: 75,
+        price: 85,
         sub_category: null,
         description: '180gr kasap kıyma eti ',
       },
       {
         name: 'Terbiyesiz Tavuk(Acısız)',
-        price: 75,
+        price: 85,
         sub_category: null,
         description: '200gr dinlendirilmiş tavuk budu',
       },
       {
         name: 'Terbiyeli Tavuk(Acılı)',
-        price: 75,
+        price: 85,
         sub_category: null,
         description: '200gr terbiyelenmiş acı soslu tavuk budu ',
       },
       {
         name: 'Adana Kebap(Acılı)',
-        price: 85,
+        price: 95,
         sub_category: null,
         description: '180gr zırhlı kuzu kaburga kıyması ',
       },
       {
         name: 'Beyoglu Kebap(Acısız)',
-        price: 85,
+        price: 95,
         sub_category: null,
         description: '180gram zırhlı kuzu kaburga kıyması ',
       },
       {
         name: 'Urfa Kebap (Acısız)',
-        price: 85,
+        price: 95,
         sub_category: null,
         description: '180gr kuzu kaburga kıyması',
+      },
+      {
+        name: 'Siverek Kebabı',
+        price: 110,
+        sub_category: null,
+        description:
+          'Yarım porsiyon Beyoğlu kebabı ve yarım porsiyon patlıcanlı kebap',
+      },
+      {
+        name: 'Patlıcanlı Kebap',
+        price: 120,
+        sub_category: null,
+        description: 'Patlıcan arası zırhta kuzu eti',
       },
 
       {
         name: 'Ciğer',
-        price: 90,
+        price: 100,
         sub_category: null,
         description: '160gr kuzu ciğer ',
       },
 
       {
         name: 'Terbiyesiz Kuşbaşı (Acısız)',
-        price: 110,
+        price: 120,
         sub_category: null,
         description: '200gr dinlendirilmiş dana bonfile',
       },
       {
         name: 'Terbiyeli Kuşbaşı(Acılı)',
-        price: 110,
+        price: 120,
         sub_category: null,
         description: '200gr terbiyelenmiş soslu dana bonfile ',
       },
       {
         name: 'Ali Nazik',
-        price: 125,
+        price: 135,
         sub_category: null,
         description:
           'Közlenmiş patlıcan üzerine, terbiyelenmiş 200gr dana bonfile ile tereyağlı sos ',
@@ -323,26 +336,26 @@ export const categories = [
     items: [
       {
         name: 'Bodrum Çökertme',
-        price: 120,
+        price: 130,
         sub_category: null,
         description:
           'Kibrit patates üstüne yoğurt, 200gr dana dana bonfile üzerine tereyağlı sos, ',
       },
       {
         name: 'Mantarlı Bonfile',
-        price: 120,
+        price: 130,
         sub_category: null,
         description: '200gr mantar soslu dana bonfile ',
       },
       {
         name: 'Fajita',
-        price: 120,
+        price: 130,
         sub_category: null,
         description: 'Jülyan 200gr dana bonfile ',
       },
       {
         name: 'Beyoğlu Gurme Special',
-        price: 120,
+        price: 130,
         sub_category: null,
         description: '200gr doğranmış dana bonfile,',
       },
@@ -357,35 +370,35 @@ export const categories = [
     items: [
       {
         name: 'Tavuk Salata',
-        price: 43,
+        price: 53,
         sub_category: null,
         description:
           '130gr ızgara tavuk bonfile, akdeniz yeşilliği,iceberg marul, roka, salatalık, kiraz domates, zeytinyağı ve balzemik sirke',
       },
       {
         name: 'Şefin Salatası',
-        price: 40,
+        price: 50,
         sub_category: null,
         description:
           'Peynir, akdeniz yeşilliği,iceberg marul, roka, salatalık, kiraz domates, zeytinyağı, limon ve balzemik sirke',
       },
       {
         name: 'Tavuklu Sezar Salata',
-        price: 45,
+        price: 55,
         sub_category: null,
         description:
           '130gr ızgara tavuk bonfile, marul, çeri domates, kruoton ekmeği, kaşar peyniri, kornişon turşu, sezar sos ile',
       },
       {
         name: 'Ton Balıklı Salata',
-        price: 50,
+        price: 60,
         sub_category: null,
         description:
           '100gr ton balığı, akdeniz yeşilliği, iceberg marul, roka, kiraz domates, zeytinyağı, limon',
       },
       {
         name: 'Izgara Salata',
-        price: 55,
+        price: 70,
         sub_category: null,
         description:
           '100gr ızgara fileto dana bonfile, akdeniz yeşilliği, iceberg marul, roka, salatalık, kiraz domates, zeytinyağı, balzamik sirke ve kekik',
@@ -401,26 +414,26 @@ export const categories = [
     items: [
       {
         name: 'Fesleğen Soslu Tavuk',
-        price: 70,
+        price: 75,
         sub_category: null,
         description: '200gr fesleğen soslu tavuk ',
       },
       {
         name: 'Köri Soslu Tavuk',
-        price: 70,
+        price: 75,
         sub_category: null,
         description: '200gr köri soslu tavuk ',
       },
       {
         name: 'Taze Baharatlı Tavuk',
-        price: 70,
+        price: 75,
         sub_category: null,
         description:
           '200gr tavuk içine kırmızı biber, kekik, toz biber, karabiber',
       },
       {
         name: 'Kremalı Mantarlı Tavuk',
-        price: 70,
+        price: 75,
         sub_category: null,
         description: '200gr tavuk içine mantar ve krema ',
       },
@@ -473,18 +486,29 @@ export const categories = [
     bg: 'dark',
     items: [
       {
+        name: 'Kesme Dondurma',
+        price: 20,
+        sub_category: 'Tatlı',
+        description: null,
+      },
+      {
         name: 'Kup Dondurma (3 Top)',
         price: 24,
         sub_category: 'Tatlı',
         description: null,
       },
       {
-        name: 'Magnolia',
-        price: 30,
+        name: 'Supangle',
+        price: 25,
         sub_category: 'Tatlı',
         description: null,
       },
-
+      {
+        name: 'Profiterol',
+        price: 25,
+        sub_category: 'Tatlı',
+        description: null,
+      },
       {
         name: 'Dondurmalı Islak Kek',
         price: 35,
@@ -516,14 +540,6 @@ export const categories = [
         sub_category: 'Tatlı',
         description: null,
       },
-
-      {
-        name: 'Magnolia + Kahve',
-        price: 45,
-        sub_category: 'Kampanyalar',
-        description: null,
-      },
-
       {
         name: 'Kıbrıs Tatlısı + Kahve',
         price: 50,
@@ -719,18 +735,19 @@ export const categories = [
     name: 'Çay & Bitki Çayları',
     sub_message: null,
     sub_category: ['Sıcak İçecekler', 'Bitki Çayları'],
-    image: 'https://s10.gifyu.com/images/vay.jpg',
+    image:
+      'https://s8.gifyu.com/images/WhatsApp-Image-2022-06-29-at-8.07.32-PM.jpg',
     bg: 'light',
     items: [
       {
         name: 'Çay',
-        price: 7.5,
+        price: 8.5,
         sub_category: 'Sıcak İçecekler',
         description: null,
       },
       {
         name: 'Fincan Çay',
-        price: 12,
+        price: 14.5,
         sub_category: 'Sıcak İçecekler',
         description: null,
       },
@@ -837,7 +854,7 @@ export const categories = [
     items: [
       {
         name: 'Su',
-        price: 6.5,
+        price: 7.5,
         sub_category: null,
         description: null,
       },
@@ -849,68 +866,68 @@ export const categories = [
       },
       {
         name: 'Ayran',
-        price: 12,
+        price: 13,
         sub_category: null,
         description: null,
       },
       {
         name: 'Kola ',
-        price: 14,
+        price: 15,
         sub_category: null,
         description: null,
       },
       {
         name: 'Fanta ',
-        price: 14,
+        price: 15,
         sub_category: null,
         description: null,
       },
       {
         name: 'FuseTea ',
-        price: 14,
+        price: 15,
         sub_category: null,
         description: null,
       },
       {
         name: 'Beyoğlu Gazoz ',
-        price: 14,
+        price: 15,
         sub_category: null,
         description: null,
       },
       {
         name: 'Zencefilli Beyoğlu Gazoz ',
-        price: 15,
+        price: 16,
         sub_category: null,
         description: null,
       },
 
       {
         name: 'Organik Adana Şalgamı',
-        price: 12,
+        price: 15,
         sub_category: null,
         description: null,
       },
       {
         name: 'Şıra',
-        price: 14,
+        price: 15,
         sub_category: null,
         description: null,
       },
       {
         name: 'Churchil',
-        price: 14,
+        price: 15,
         sub_category: null,
         description: null,
       },
       {
         name: 'Soda-Limon',
-        price: 13,
+        price: 15,
         sub_category: null,
         description: null,
       },
       {
         name: 'Taze Sıkma Portakal Suyu ',
-        price: 22.5,
+        price: 25,
         sub_category: null,
         description: null,
       },
